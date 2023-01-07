@@ -12,6 +12,8 @@ model file- python app.py
 # Deploy your docker image
 
 docker build -t prathamesh/myapp:beta .
+
+
 docker tag prathamesh/myapp:beta prathameshk711/credit_card
 
 # Then just run your image
