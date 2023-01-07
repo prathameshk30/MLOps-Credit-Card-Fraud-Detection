@@ -1,7 +1,7 @@
 # MLops-Credit-Card-Fraud-Detection
 # Deploy Machine learning API using Flask and Docker
 
-In this tutorial, we create a containerized machine learning application. It is a simple application but it can be used as a template to build a more serious one
+In this tutorial, we create a containerized machine learning application. This is an internal credit card fraud detection system designed by the bank for checking the fraud. All of the system have been designed end to end. Further integration of CI/CD pipeline through Gitlab/Kubernetes is also possible.
 
 # Create your model
 We create a classifier on credit card fraud detection dataset and stored the fitted model in a file.
