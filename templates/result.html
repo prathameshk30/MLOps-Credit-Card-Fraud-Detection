@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title></title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body style="background-color:#CCFFFF;>
+
+      <header>
+      <div class="container">
+      <div id="brandname">
+               Fraud Detection Result
+      </div>
+      <h2>Fraud Detection detector</h2> 
+
+      </div>
+      </header>
+      <p style="color:blue;font-size:20;text-align: left;"><b>Results for Fraud Detected</b><p>
+      <div class="results">
+
+      {% if prediction ==0%}
+      <h2 style="color:blue;">The transaction is not a fraud</h2>
+      {% elif prediction == 1%}
+      <h2 style="color:red;">The transaction is a fraud !!</h2>
+      {% endif %}
+
+      </div>
+ 
+      <a href="..">
+      <input type="submit" value="Go Back...">
+      </a>
+
+</body>
+</html>
+     
