@@ -5,6 +5,8 @@ In this tutorial, we create a containerized machine learning application. This i
 
 # Create your model
 We create a classifier on credit card fraud detection dataset and stored the fitted model in a file.
+
+
 train file- train.ipynb
 
 model file- python app.py
