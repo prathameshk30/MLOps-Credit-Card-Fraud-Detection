@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fraud_detect
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fraud_detect
+  template:
+    metadata:
+      labels:
+        app: fraud_detect
+    spec:
+      containers:
+      - name: cv-app
+        image: gcr.io/prathamesh-project/fraud_detect:v1
+        ports:
+        - containerPort: 3840
