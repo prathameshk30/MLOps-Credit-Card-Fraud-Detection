@@ -1,6 +1,6 @@
 # MLOps-Credit-Card-Fraud-Detection
 
-## project arcitecture:-
+## Project arcitecture:-
 
 <img width="953" alt="image" src="https://user-images.githubusercontent.com/89546195/213266468-c734bc24-8ef0-4d2c-b4e7-662231ca290e.png">
 
