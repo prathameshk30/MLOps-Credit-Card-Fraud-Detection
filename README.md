@@ -1,4 +1,4 @@
-# MLOps-Credit-Card-Fraud-Detection
+# MLOps-Credit-Card-Fraud-Detection (GCP)
 
 ## Project arcitecture:-
 
